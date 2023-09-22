@@ -1,3 +1,5 @@
+//Aula 5 - operadores
+
 var salario_bruto = 7500;
 var ir = salario_bruto * 0.10;
 
