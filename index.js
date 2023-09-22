@@ -1,8 +1,12 @@
-//Aula 5 - operadores
+//Aula 6 - Entrada de Dados
+const prompt = require('prompt-sync')();
 
-var salario_bruto = 7500;
+var nome = prompt("Digite o seu nome: ")
+
+var salario_bruto = parseFloat(prompt("Digite seu salário bruto: "));
+
 var ir = salario_bruto * 0.10;
 
 var salario_liquido = salario_bruto - ir;
 
-console.log("Salário líquido: R$ ", salario_liquido);
+console.log(nome, "\nSalário líquido: R$", salario_liquido);
