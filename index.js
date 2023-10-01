@@ -7,7 +7,7 @@ var salario_bruto = parseFloat(prompt("Digite seu salário bruto: "));
 
 var dependentes = parseInt(prompt("Digite o numero de dependentes: "));
 
-var renda_percapita = salario_bruto/dependentes;
+var renda_percapita = salario_bruto/(dependentes +1);
 
 
 if(renda_percapita >= 500) {
