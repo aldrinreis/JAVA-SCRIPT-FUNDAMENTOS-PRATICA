@@ -1,4 +1,4 @@
-//Versão: 09 - Comandos de Repetição.
+//Versão: 10 - Comandos de Repetição Aninhados.
 
 
 const prompt = require('prompt-sync')();
@@ -13,6 +13,13 @@ for (var i = 1; i <= 5; i++) {
   var salario_bruto = parseFloat(prompt("Digite seu salário bruto: "));
 
   var dependentes = parseInt(prompt("Digite o numero de dependentes: "));
+
+  for (var j = 1; j <= dependentes; j++) {
+
+    var ganho = parseFloat(prompt("Digite seu ganho mensal: "));
+
+    salario_bruto = salario_bruto + ganho;
+  }
 
   var renda_percapita = salario_bruto / (dependentes + 1);
 

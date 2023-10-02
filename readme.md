@@ -6,6 +6,8 @@ Solicite ao Usuário que digite seu nome e o valor de seu salário bruto.
 
 Peça também para o usuário digitar a quantidade de dependentes.
 
+Para cada um dos dependentes deve ser solicitado o ganho mensal, esse valor deve ser adicionado ao salário bruto.
+
 Calcule a renda familiar per capita.
 
 Caso a renda para cada membro da familia seja menor que R$ 500,00 a pessoa ficará isenta de imposto de renda, ou seja, não será calculado dentre as faixas salarias e o seu valor será 0.
@@ -20,4 +22,4 @@ Caso a renda para cada membro da familia seja maior ou igual a R$ 500,00 o impos
 * 
 Ao final mostre na tela o valor do salario liquido.
 
-Versão: 09 - Comandos de Repetição.
+Versão: 10 - Comandos de Repetição Aninhados.
