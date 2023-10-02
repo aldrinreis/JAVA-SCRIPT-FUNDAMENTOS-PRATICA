@@ -36,6 +36,6 @@ for (var i = 1; i <= 5; i++) {
 
   var salario_liquido = salario_bruto - ir;
 
-  console.log(nome, "\nSalário líquido: R$", salario_liquido);
+  console.log(nome, "\nSalário líquido: R$", salario_liquido, "\n");
 
 };
