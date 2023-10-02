@@ -1,6 +1,6 @@
 PROBLEMA
 
-Elabore um algoritimo para calcular o salário líquido de uma pessoa.
+Elabore um algoritimo para calcular o salário líquido de 5 pessoas.
 
 Solicite ao Usuário que digite seu nome e o valor de seu salário bruto.
 
@@ -20,4 +20,4 @@ Caso a renda para cada membro da familia seja maior ou igual a R$ 500,00 o impos
 * 
 Ao final mostre na tela o valor do salario liquido.
 
-Versão: 08 - Comandos de Decisão Aninhados.
+Versão: 09 - Comandos de Repetição.
