@@ -1,8 +1,11 @@
-//Versão: 10 - Comandos de Repetição Aninhados.
+//Versão: 11 - Coleçoes [Arrays].
 
 
 const prompt = require('prompt-sync')();
-
+var salarios = [];
+var soma = 0;
+var media;
+var qtd_menores = 0;
 
 for (var i = 1; i <= 5; i++) {
 
@@ -45,4 +48,20 @@ for (var i = 1; i <= 5; i++) {
 
   console.log(nome, "\nSalário líquido: R$", salario_liquido, "\n");
 
+  salarios.push(salario_liquido);
+  soma = soma + salario_liquido;
+
+
 };
+
+media = soma / 5;
+
+for (var i = 0; i <= 4; i++) {
+  if (salarios[i] < media) {
+    qtd_menores++
+  }
+
+}
+
+console.log("A média dos salários líquidos é: ", media);
+console.log("A quantidade de pessoas com salário líquido menor que a média é: ", qtd_menores);
